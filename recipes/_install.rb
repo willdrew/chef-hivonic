@@ -5,16 +5,20 @@
 # Copyright 2015, Will Drew
 #
 
-installs = node['hivonic']['installs']
+hivonic_attrs = node['hivonic']
+h_version     = hivonic_attrs['version']
+h_installs    = hivonic_attrs['installs']
 
-if installs['gem']
+if h_installs['gem']
   gem_package 'hivonic' do
+    version h_version unless h_version.nil?
     action :install
   end
 end
 
-if installs['chef_gem']
+if h_installs['chef_gem']
   chef_gem 'hivonic' do
+    version h_version unless h_version.nil?
     action :install
   end
 end
