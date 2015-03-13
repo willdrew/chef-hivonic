@@ -4,7 +4,7 @@ hivonic cookbook
 The cookbook installs the [hivonic gem](https://github.com/willdrew/hivonic)
 
 Requirements
-~~~~~~~~~~~~
+------------
 
 ### gems
 - `hivonic`
