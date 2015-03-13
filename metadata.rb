@@ -8,3 +8,5 @@ version          '0.2.0'
 
 recipe "hivonic::_install", "This recipe is used to install the hivonic (ruby gem)"
 recipe "hivonic::default", "This (driver) recipe is used to call the _install recipe"
+
+supports "ubuntu"'
