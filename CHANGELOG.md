@@ -3,6 +3,10 @@ CHANGELOG for Hivonic
 
 Changes made are listed in each version of the hivonic cookbook.
 
+0.2.1
+---
+* Tweaks
+
 0.2.0
 ---
 * Added the ability to specify the version of the hivonic gem
